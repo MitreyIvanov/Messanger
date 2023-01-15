@@ -5,9 +5,9 @@ from threading import Thread
 from PySide6.QtWidgets import QApplication
 import aiohttp
 
-from Mainwindow import Mainwindow
-from Core import Core, User
-from TypesOfRespond import TypesOfRespond, TypesOfSuccess
+from mainwindow import Mainwindow
+from core import Core, User
+from typesofresponse import TypesOfResponse, TypesOfSuccess
 
 
 async def main():

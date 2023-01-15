@@ -2,7 +2,7 @@ import asyncio
 
 from PySide6.QtWidgets import QListWidgetItem
 
-from TypesOfRespond import TypesOfRespond
+from typesofresponse import TypesOfResponse
 
 class User:
     text = "" # str

@@ -4,7 +4,7 @@ import uuid
 from PySide6.QtCore import QObject
 from PySide6.QtWebSockets import QWebSocket
 
-from TypesOfRespond import TypesOfRespond, TypesOfSuccess
+from typesofresponse import TypesOfResponse, TypesOfSuccess
 
 MAX_NAME_LENGTH = 20
 

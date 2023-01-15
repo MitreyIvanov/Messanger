@@ -2,7 +2,7 @@ from enum import Enum
 
 # here is the types of a respond
 
-class TypesOfRespond(Enum):
+class TypesOfResponse(Enum):
     INITIALIZE = 1
     SEND_MSG = 2
     REQUEST_USERS_LIST = 3

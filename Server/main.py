@@ -2,7 +2,7 @@ from PySide6.QtWebSockets import QWebSocketServer
 from PySide6.QtCore import QCoreApplication, QTimer
 from PySide6.QtNetwork import QHostAddress
 
-from User import User
+from user import User
 
 def new_connection():
     print("Someone has been connected")
